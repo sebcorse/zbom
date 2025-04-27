@@ -796,7 +796,6 @@ des ennemis plus coriaces.
 dialog{
   id = "_item_description.cane.1",
   icon = "15",
-  next = "_warning_magic",
   skip = "current",
   text = [[
 Cette canne émet une lueur
@@ -5168,6 +5167,7 @@ dialog{
   text = [[
 Quelle est cette odeur alléchante ?
 C'est une $rpotion$w ? Je dois l'avoir !
+
 Tu me la donnes ?
 Oui  
 Non
@@ -5586,6 +5586,7 @@ dialog{
 Tu as trouvé une âme de Poe !
 Elle a l'air mystérieuse. 
 Et maintenant ? 
+
 Garde-la dans une bouteille. 
 Relâche-la.
 ]],
@@ -6254,6 +6255,8 @@ Bienvenue au Goron City Inn ! Nous vous
 offrons tout le confort de la maison
 pendant votre séjour. L'hébergement ne
 coûte que 20 roupies.  
+
+
 C'est d'accord ?
 Oui  
 Non
@@ -6825,7 +6828,8 @@ dialog{
   skip = "current",
   text = [[
 Salut gamin.  
-Tu veux nous entendre jouer ?  
+Tu veux nous entendre jouer ? 
+
 Oui  
 Non
 ]],
@@ -11743,19 +11747,20 @@ Ils ont des trucs géniaux là-bas.
 
 dialog{
   id = "subrosian_2.1.poes",
+  next = "subrosian_2.1.poes_2",
+  skip = "current",
   text = [[
-Est-ce que je sens l'aura d'un poète à 
-proximité ?
-Si vous transportez des $rÂmes de poète$w
-avec vous, je serais intéressé(e) de les 
-acheter.
+Est-ce que je sens l'aura d'un poète ici?
+Si vous avez des $rÂmes de poète$w avec 
+vous, je suis intéressé.
 ]],
 }
 
 dialog{
   id = "subrosian_2.1.poes_2",
+  question = "1",
   text = [[
-Ca te dit, On en vend un pour 20 minerais ?
+Ca te dit, tu le vends pour 20 minerais ?
 Oui
 Non
 ]],
@@ -11763,12 +11768,14 @@ Non
 
 dialog{
   id = "subrosian_2.1.poes_3",
+  question = "1",
   text = [[
 Non? Et pour 200 rupees ?
 Oui
 Non
 ]],
 }
+
 
 dialog{
   id = "subrosian_blue.0.subrosia",
@@ -12514,7 +12521,8 @@ dialog{
   skip = "current",
   text = [[
 Cette bouteille contient une
-âme de Poe. Gardez-la 
+âme de Poe. 
+Gardez-la 
 Libérez-la.
 ]],
 }
@@ -13233,4 +13241,3 @@ qui vous amène dans notre vénérable
 demeure ?
 ]],
 }
-
