@@ -16,7 +16,7 @@ dialog{
   skip = "current",
   text = [[
 C'est fermé par un cadenas
-géant. $0 Va chercher une
+géant. $0 Il te faut une
 grosse clé !
 ]],
 }
@@ -358,7 +358,7 @@ dialog{
   id = "_item_description.book_mudora.7",
   skip = "current",
   text = [[
-Le légendaire et enchanté $clivre of
+Le légendaire et enchanté $cLivre de
 Mudora$w .
 ]],
 }
@@ -367,7 +367,7 @@ dialog{
   id = "_item_description.book_mudora.8",
   skip = "current",
   text = [[
-Le légendaire et enchanté $clivre of
+Le légendaire et enchanté $cLivre de
 Mudora$w .
 ]],
 }
@@ -796,6 +796,7 @@ des ennemis plus coriaces.
 dialog{
   id = "_item_description.cane.1",
   icon = "15",
+  next = "_warning_magic",
   skip = "current",
   text = [[
 Cette canne émet une lueur
@@ -2006,10 +2007,10 @@ dialog{
   id = "_quests.i1807.7",
   text = [[
 Livre de Mudora : 
-Le livre complet de Mudora a une faible lueur qui représente
-son pouvoir.  Vous pouvez ressentir la 
-puissance supplémentaire émanant des 
-Bois Perdus.
+Le livre complet de Mudora a une faible lueur
+qui représente son pouvoir. 
+Vous pouvez ressentir la puissance 
+supplémentaire émanant des Bois Perdus.
 ]],
 }
 
@@ -2092,9 +2093,10 @@ dialog{
   text = [[
 Séances de troc :
 Vous possédez une boule de cristal. 
-Ces reliques permettent de prédire l'avenir
-, mais il faut savoir s'en servir. Peut-être
-quelqu'un de l'ancienne race Shiekah ?
+Ces reliques permettent de prédire 
+l'avenir, mais il faut savoir s'en 
+servir. Peut-être quelqu'un de 
+l'ancienne race Shiekah ?
 ]],
 }
 
@@ -5167,7 +5169,6 @@ dialog{
   text = [[
 Quelle est cette odeur alléchante ?
 C'est une $rpotion$w ? Je dois l'avoir !
-
 Tu me la donnes ?
 Oui  
 Non
@@ -5344,7 +5345,7 @@ dialog{
   id = "deku.4.lost_woods",
   skip = "current",
   text = [[
-Les$maîtres$w sont partis ?$0 Que
+Les$mmaîtres$w sont partis ?$0 Que
 ferons-nous ? Nous, les Deku, avons
 besoin d'un chef fort, sinon nous sommes
 perdus !
@@ -5585,7 +5586,7 @@ dialog{
   text = [[
 Tu as trouvé une âme de Poe !
 Elle a l'air mystérieuse. 
-Et maintenant ? 
+Et maintenant ?
 
 Garde-la dans une bouteille. 
 Relâche-la.
@@ -6254,10 +6255,7 @@ dialog{
 Bienvenue au Goron City Inn ! Nous vous
 offrons tout le confort de la maison
 pendant votre séjour. L'hébergement ne
-coûte que 20 roupies.  
-
-
-C'est d'accord ?
+coûte que 20 roupies. C'est d'accord ?
 Oui  
 Non
 ]],
@@ -6828,8 +6826,7 @@ dialog{
   skip = "current",
   text = [[
 Salut gamin.  
-Tu veux nous entendre jouer ? 
-
+Tu veux nous entendre jouer ?  
 Oui  
 Non
 ]],
@@ -10705,11 +10702,12 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-C'est... c'est... $0 $rminerai Maître$w !!!
+C'est... c'est...$0 $rLe minerai Maître$w!!!
 $0 Je ne sais pas comment tu as trouvé
 ça, mais tu as vraiment de la chance !
 Avec ça, je pourrai rendre ton épée plus
 puissante en un rien de temps !  
+
 Qu'en penses-tu ?  
 Oui  
 Non
@@ -11088,8 +11086,10 @@ dialog{
   question = "1",
   skip = "current",
   text = [[
-Veux tu vendre des $v ? Ça m'intéresse 
-beaucoup ! Cinq à 20 roupies pièce ?  
+Veux tu vendre des $v ? 
+Ça m'intéresse beaucoup ! 
+Cinq à 20 roupies pièce ?
+
 Oui
 Non
 ]],
@@ -11344,7 +11344,8 @@ dialog{
   id = "sign.island_palace",
   skip = "current",
   text = [[
-Island Palace$0Danger à l'intérieur !
+Island Palace$0
+Danger à l'intérieur !
 ]],
 }
 
@@ -11747,20 +11748,19 @@ Ils ont des trucs géniaux là-bas.
 
 dialog{
   id = "subrosian_2.1.poes",
-  next = "subrosian_2.1.poes_2",
-  skip = "current",
   text = [[
-Est-ce que je sens l'aura d'un poète ici?
-Si vous avez des $rÂmes de poète$w avec 
-vous, je suis intéressé.
+Est-ce que je sens l'aura d'un poète à 
+proximité ?
+Si vous transportez des $rÂmes de poète$w
+avec vous, je serais intéressé(e) de les 
+acheter.
 ]],
 }
 
 dialog{
   id = "subrosian_2.1.poes_2",
-  question = "1",
   text = [[
-Ca te dit, tu le vends pour 20 minerais ?
+Ca te dit, On en vend un pour 20 minerais ?
 Oui
 Non
 ]],
@@ -11768,14 +11768,12 @@ Non
 
 dialog{
   id = "subrosian_2.1.poes_3",
-  question = "1",
   text = [[
 Non? Et pour 200 rupees ?
 Oui
 Non
 ]],
 }
-
 
 dialog{
   id = "subrosian_blue.0.subrosia",
@@ -12521,8 +12519,7 @@ dialog{
   skip = "current",
   text = [[
 Cette bouteille contient une
-âme de Poe. 
-Gardez-la 
+âme de Poe. Gardez-la 
 Libérez-la.
 ]],
 }
@@ -12777,6 +12774,7 @@ Lune que vous avez en votre possession ?
 Donnez-la-moi, s'il vous plaît ! Je vous
 donnerai mon bien le plus précieux, ma
 Boule de Cristal.  
+
 La lui donner ?  
 Oui
 Non
@@ -13241,3 +13239,4 @@ qui vous amène dans notre vénérable
 demeure ?
 ]],
 }
+
